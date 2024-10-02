@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-comerce site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- nav bar  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="#">E-comerce</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sell your item</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My shop</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Catagory
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Fashion</a></li>
+                            <li><a class="dropdown-item" href="#">Ride</a></li>
+                            <li>
+                            <li><a class="dropdown-item" href="#">Devices</a></li>
+                            <li>
+                            <li><a class="dropdown-item" href="#">foot</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search" action="sr_ruselt.html">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info submit_btn" type="submit">Search</button>
+                </form>
+
+                <ul class="navbar-nav me-auto ms-3 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" aria-current="page" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#">Sign up</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav bar close -->
+
+    <!-- slider  -->
+    <div id="carouselExampleIndicators" class="carousel slide slid_content container" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000" data-bs-keyboard="true">
+                <img src="E-comers slide_img/img4.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000" data-bs-keyboard="true">
+                <img src="E-comers slide_img/img5.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000" data-bs-keyboard="true">
+                <img src="E-comers slide_img/img6.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- slider close -->
+    <!-- frist content  -->
+
+    <div class="most_sell_tag justify-content-center d-flex mt-3">
+        <h2>Most sell</h2>
+    </div>
+    <div class="containt-1 container mt-1 ">
+        <a href="mpruduct-info.html">
+            <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                <img src="product/product.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title </p>
+                </div>
+                <div class="card-info d-flex justify-content-around">
+                    <h5 class="text-danger">৳ 350</h5>
+                    <div class="star"><i class="bi bi-star-fill star"></i><i class="bi bi-star-fill star"></i><i
+                            class="bi bi-star-fill star"></i><i class="bi bi-star-fill star"></i><i
+                            class="bi bi-star-fill star"></i></div>
+                    <span class="sold">1.5k sold</span>
+                </div>
+            </div>
+        </a>
+        <a href="mpruduct-info.html">
+            <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                <img src="product/product1.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title </p>
+                </div>
+                <div class="card-info d-flex justify-content-around">
+                    <h5 class="text-danger">৳ 350</h5>
+                    <div class="star"><i class="bi bi-star-fill star"></i><i class="bi bi-star-fill star"></i><i
+                            class="bi bi-star-fill star"></i><i class="bi bi-star-fill star"></i><i
+                            class="bi bi-star-fill star"></i></div>
+                    <span class="sold">1.5k sold</span>
+                </div>
+            </div>
+        </a>
+        <a href="mpruduct-info.html">
+            <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                <img src="product/product22.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title </p>
+                </div>
+                <div class="card-info d-flex justify-content-around">
+                    <h5 class="text-danger">৳ 350</h5>
+                    <div class="star"><i class="bi bi-star-fill star"></i><i class="bi bi-star-fill star"></i><i
+                            class="bi bi-star-fill star"></i><i class="bi bi-star-fill star"></i><i
+                            class="bi bi-star-fill star"></i></div>
+                    <span class="sold">1.5k sold</span>
+                </div>
+            </div>
+        </a>
+        <a href="mpruduct-info.html">
+            <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                <img src="product/product23.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title </p>
+                </div>
+                <div class="card-info d-flex justify-content-around">
+                    <h5 class="text-danger">৳ 350</h5>
+                    <div class="star"><i class="bi bi-star-fill star"></i><i class="bi bi-star-fill star"></i><i
+                            class="bi bi-star-fill star"></i><i class="bi bi-star-fill star"></i><i
+                            class="bi bi-star-fill star"></i></div>
+                    <span class="sold">1.5k sold</span>
+                </div>
+            </div>
+        </a>
+        <a href="mpruduct-info.html">
+
+            <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                <img src="product/product234.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title </p>
+                </div>
+                <div class="card-info d-flex justify-content-around">
+                    <h5 class="text-danger">৳ 350</h5>
+                    <div class="star"><i class="bi bi-star-fill star"></i><i class="bi bi-star-fill star"></i><i
+                            class="bi bi-star-fill star"></i><i class="bi bi-star-fill star"></i><i
+                            class="bi bi-star-fill star"></i></div>
+                    <span class="sold">1.5k sold</span>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <!-- frist content close  -->
+    <!-- catagory  -->
+    <div class="container ">
+        <h2>Catagory</h2>
+        <hr class="border border-primary border-2 opacity-50">
+        <div class="catagory mb-4 ">
+            <a href="mpruduct-info.html">
+                <div class="card ca_card shadow p-2 catagory-card">
+                    <img src="catagory/beutiness.jpeg" class="card-img-top" alt="...">
+                    <span class="toltip">Beutiness</span>
+                </div>
+            </a></a> <a href="mpruduct-info.html">
+                <div class="card shadow p-2 catagory-card">
+                    <img src="catagory/decoration.jpeg" class="card-img-top" alt="...">
+                    <span class="toltip">house Decoration</span>
+                </div>
+            </a> <a href="mpruduct-info.html">
+                <div class="card shadow p-2 catagory-card">
+                    <img src="catagory/outfit.jpeg" class="card-img-top" alt="...">
+                    <span class="toltip">Fasion</span>
+                </div>
+            </a><a href="mpruduct-info.html">
+                <div class="card shadow p-2 catagory-card">
+                    <img src="catagory/computer.jpeg" class="card-img-top" alt="...">
+                    <span class="toltip">Computer</span>
+                </div>
+            </a> <a href="mpruduct-info.html">
+                <div class="card shadow p-2 catagory-card">
+                    <img src="catagory/mobile.jpeg" class="card-img-top" alt="...">
+                    <span class="toltip">Buy Phone</span>
+                </div>
+            </a> <a href="mpruduct-info.html">
+                <div class="card shadow p-2 catagory-card">
+                    <img src="catagory/ride.jpeg" class="card-img-top" alt="...">
+                    <span class="toltip">Ride with us</span>
+                </div>
+            </a> <a href="mpruduct-info.html">
+                <div class="card shadow p-2 catagory-card">
+                    <img src="catagory/gift.jpeg" class="card-img-top" alt="...">
+                    <span class="toltip">Gift's</span>
+                </div>
+            </a> <a href="mpruduct-info.html">
+                <div class="card shadow p-2 catagory-card">
+                    <img src="catagory/car.jpeg" class="card-img-top" alt="...">
+                    <span class="toltip">Car's</span>
+                </div>
+            </a> <a href="mpruduct-info.html">
+                <div class="card shadow p-2 catagory-card">
+                    <img src="catagory/studio.jpeg" class="card-img-top" alt="...">
+                    <span class="toltip">Studio equpment</span>
+                </div>
+            </a> <a href="mpruduct-info.html">
+                <div class="card shadow p-2 catagory-card">
+                    <img src="catagory/games.jpeg" class="card-img-top" alt="...">
+                    <span class="toltip">Games</span>
+                </div>
+            </a><a href="mpruduct-info.html">
+                <div class="card shadow p-2 catagory-card">
+                    <img src="catagory/foods.jpeg" class="card-img-top" alt="...">
+                    <span class="toltip">Foods</span>
+                </div>
+            </a> <a href="mpruduct-info.html">
+                <div class="card shadow p-2 catagory-card">
+                    <img src="catagory/toys.jpeg" class="card-img-top" alt="...">
+                    <span class="toltip">Toys</span>
+                </div>
+            </a> </a> <a href="mpruduct-info.html">
+                <div class="card shadow p-2 catagory-card">
+                    <img src="catagory/electronics.jpeg" class="card-img-top" alt="...">
+                    <span class="toltip">Electronics</span>
+                </div>
+            </a><a href="mpruduct-info.html">
+                <div class="card shadow p-2 catagory-card">
+                    <img src="catagory/sports.jpeg" class="card-img-top" alt="...">
+                    <span class="toltip">sports</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- catagory close -->
+
+    <!-- main content's -->
+    <div class="container ">
+        <h2>Chose your Item</h2>
+        <hr class="border border-primary border-2 opacity-50">
+        <div class="main_content containt-2 ">
+            <a href="mpruduct-info.html">
+                <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                    <img src="product/product234.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title </p>
+                    </div>
+                    <div class="card-info d-flex justify-content-around">
+                        <h5 class="text-danger">৳ 350</h5>
+                        <span class="stock">in stock</span>
+                    </div>
+                </div>
+            </a>
+            <a href="mpruduct-info.html">
+                <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                    <img src="product/product.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title </p>
+                    </div>
+                    <div class="card-info d-flex justify-content-around">
+                        <h5 class="text-danger">৳ 350</h5>
+                        <span class="stock">full stock</span>
+                    </div>
+                </div>
+            </a>
+            <a href="mpruduct-info.html">
+                <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                    <img src="product/product4344.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title </p>
+                    </div>
+                    <div class="card-info d-flex justify-content-around">
+                        <h5 class="text-danger">৳ 350</h5>
+                        <span class="stock">full stock</span>
+                    </div>
+                </div>
+            </a>
+            <a href="mpruduct-info.html">
+                <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                    <img src="product/product34.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title </p>
+                    </div>
+                    <div class="card-info d-flex justify-content-around">
+                        <h5 class="text-danger">৳ 350</h5>
+                        <span class="stock">full stock</span>
+                    </div>
+                </div>
+            </a>
+            <a href="mpruduct-info.html">
+                <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                    <img src="product/product243.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title </p>
+                    </div>
+                    <div class="card-info d-flex justify-content-around">
+                        <h5 class="text-danger">৳ 350</h5>
+                        <span class="stock">full stock</span>
+                    </div>
+                </div>
+            </a>
+            <a href="mpruduct-info.html">
+                <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                    <img src="product/product23.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title </p>
+                    </div>
+                    <div class="card-info d-flex justify-content-around">
+                        <h5 class="text-danger">৳ 350</h5>
+                        <span class="stock">full stock</span>
+                    </div>
+                </div>
+            </a>
+            <a href="mpruduct-info.html">
+                <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                    <img src="product/product4344.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title </p>
+                    </div>
+                    <div class="card-info d-flex justify-content-around">
+                        <h5 class="text-danger">৳ 350</h5>
+                        <span class="stock">full stock</span>
+                    </div>
+                </div>
+            </a>
+            <a href="mpruduct-info.html">
+                <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                    <img src="product/product34.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title </p>
+                    </div>
+                    <div class="card-info d-flex justify-content-around">
+                        <h5 class="text-danger">৳ 350</h5>
+                        <span class="stock">full stock</span>
+                    </div>
+                </div>
+            </a>
+            <a href="mpruduct-info.html">
+                <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                    <img src="product/product.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title </p>
+                    </div>
+                    <div class="card-info d-flex justify-content-around">
+                        <h5 class="text-danger">৳ 350</h5>
+                        <span class="stock">full stock</span>
+                    </div>
+                </div>
+            </a>
+            <a href="mpruduct-info.html">
+                <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                    <img src="product/product34.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title </p>
+                    </div>
+                    <div class="card-info d-flex justify-content-around">
+                        <h5 class="text-danger">৳ 350</h5>
+                        <span class="stock">full stock</span>
+                    </div>
+                </div>
+            </a>
+            <a href="mpruduct-info.html">
+                <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                    <img src="product/product24.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title </p>
+                    </div>
+                    <div class="card-info d-flex justify-content-around">
+                        <h5 class="text-danger">৳ 350</h5>
+                        <span class="stock">full stock</span>
+                    </div>
+                </div>
+            </a>
+            <a href="mpruduct-info.html">
+                <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                    <img src="product/product23.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title </p>
+                    </div>
+                    <div class="card-info d-flex justify-content-around">
+                        <h5 class="text-danger">৳ 350</h5>
+                        <span class="stock">full stock</span>
+                    </div>
+                </div>
+            </a>
+            <a href="mpruduct-info.html">
+                <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                    <img src="product/product22.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title </p>
+                    </div>
+                    <div class="card-info d-flex justify-content-around">
+                        <h5 class="text-danger">৳ 350</h5>
+                        <span class="stock">full stock</span>
+                    </div>
+                </div>
+            </a>
+            <a href="mpruduct-info.html">
+                <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                    <img src="product/product24.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title </p>
+                    </div>
+                    <div class="card-info d-flex justify-content-around">
+                        <h5 class="text-danger">৳ 350</h5>
+                        <span class="stock">full stock</span>
+                    </div>
+                </div>
+            </a>
+            <a href="mpruduct-info.html">
+                <div class="card g-col-6 p-2 mb-5 bg-body-tertiary rounded">
+                    <img src="product/product34.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title </p>
+                    </div>
+                    <div class="card-info d-flex justify-content-around">
+                        <h5 class="text-danger">৳ 350</h5>
+                        <span class="stock">full stock</span>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+    <!-- main content's close -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white" style="background-color: #3f0387">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-between p-4" style="background-color: #6351ce">
+            <!-- Left -->
+            <div class="me-5">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold">Company name</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            Here you can use rows and columns to organize your footer
+                            content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Products</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            <a href="#!" class="text-white">MDBootstrap</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">MDWordPress</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">BrandFlow</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Bootstrap Angular</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Useful links</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            <a href="#!" class="text-white">Your Account</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Become an Affiliate</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Shipping Rates</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Contact</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                        <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                        <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    </div>
+    <!-- End of .container -->
+</body>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</html>
